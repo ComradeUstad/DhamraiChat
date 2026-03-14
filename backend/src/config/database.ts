@@ -14,5 +14,6 @@ export const connectDB = async () => {
         process.exit(1); // Exit process with failure
         // Status 0 means failed to connect to the database
         // Status 1 means successfully connected to the database
+        
     }
 };
